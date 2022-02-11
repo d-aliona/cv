@@ -1,0 +1,305 @@
+* {
+  margin: 0; }
+
+body {
+  width: 1920px;
+  background-color: white; }
+  body .header {
+    background-image: url("../img/m-h-day.jpg");
+    background-size: cover;
+    background-position: 0px -277px;
+    width: 1920px;
+    height: 720px;
+    border-radius: 0 0 760px/290px 0;
+    color: #1b1e2a; }
+    body .header .header-wrap {
+      position: relative;
+      margin-left: 192px; }
+    body .header .landing-logo {
+      position: absolute;
+      font-family: "Hind", sans-serif;
+      top: 20px;
+      left: 0px; }
+      body .header .landing-logo p {
+        position: absolute;
+        left: 59px;
+        top: -4px;
+        font-size: 150%;
+        font-weight: 600;
+        text-align: left;
+        opacity: 0.7; }
+        body .header .landing-logo p span {
+          font-family: "Source Sans Pro", sans-serif;
+          display: block;
+          position: absolute;
+          top: 33px;
+          left: 11px;
+          font-size: 41%;
+          letter-spacing: 0.1px; }
+    body .header .header_heading {
+      position: absolute;
+      width: 600px;
+      display: block;
+      top: 136px;
+      font-size: 450%;
+      font-weight: 800;
+      font-family: "Source Sans Pro", sans-serif;
+      line-height: 1.01;
+      z-index: 1;
+      opacity: 0.7; }
+    body .header .header_heading::after {
+      display: block;
+      content: "";
+      width: 301px;
+      height: 50px;
+      position: absolute;
+      background-color: #0ca1c8;
+      top: 96px;
+      left: 0px;
+      z-index: -1; }
+    body .header .header_text {
+      white-space: pre;
+      position: absolute;
+      left: -48px;
+      top: 317px;
+      line-height: 1.5;
+      letter-spacing: 0.18px;
+      font-family: "Hind", sans-serif;
+      opacity: 0.7; }
+    body .header .header_button {
+      position: absolute;
+      color: white;
+      background-color: #699a00;
+      border: none;
+      font-weight: 700;
+      font-size: 111%;
+      padding: 13px 44px;
+      border-radius: 3px;
+      font-family: "Source Sans Pro", sans-serif;
+      top: 497px; }
+    body .header .login {
+      color: white;
+      font-family: "Source Sans Pro", sans-serif;
+      text-decoration-thickness: 3px;
+      position: absolute;
+      top: 506px;
+      left: 295px;
+      font-size: 125%;
+      font-weight: 400; }
+  body .section {
+    position: relative;
+    width: 1115px;
+    margin: 0 auto;
+    font-family: "Source Sans Pro", sans-serif;
+    border-radius: 7px; }
+    body .section .section_text {
+      text-align: center;
+      font-size: 262%;
+      padding: 37px;
+      font-weight: 600;
+      z-index: 1;
+      color: #1b1e2a; }
+    body .section .section_text::after {
+      display: block;
+      content: "";
+      width: 190px;
+      height: 50px;
+      position: absolute;
+      background-color: #0ca1c8;
+      top: 31px;
+      left: 564px;
+      z-index: -1; }
+    body .section .section_card_wrap {
+      color: white; }
+      body .section .section_card_wrap .section_card:nth-child(1) {
+        background-color: #1b1e2a;
+        position: relative;
+        margin-bottom: 25px;
+        border-radius: 7px;
+        height: 326px; }
+        body .section .section_card_wrap .section_card:nth-child(1) .section_card_img {
+          width: 430px;
+          height: 286px;
+          border-radius: 25px;
+          padding: 20px; }
+        body .section .section_card_wrap .section_card:nth-child(1) .section_card_right_container {
+          position: absolute;
+          top: 69px;
+          left: 539px;
+          width: 467px;
+          text-align: center; }
+          body .section .section_card_wrap .section_card:nth-child(1) .section_card_right_container .section_card_heading {
+            text-align: center;
+            padding-bottom: 40px;
+            font-size: 150%;
+            font-weight: 700;
+            letter-spacing: -0.4px; }
+          body .section .section_card_wrap .section_card:nth-child(1) .section_card_right_container .section_card_text {
+            line-height: 1.5;
+            font-family: "Hind", sans-serif;
+            text-align: justify;
+            margin-bottom: 20px;
+            opacity: 70%;
+            word-spacing: 0.7px; }
+      body .section .section_card_wrap .section_card:nth-child(2) {
+        background-color: #1b1e2a;
+        position: relative;
+        margin-bottom: 25px;
+        border-radius: 7px;
+        height: 315px; }
+        body .section .section_card_wrap .section_card:nth-child(2) .section_card_img {
+          width: 415px;
+          height: 275px;
+          border-radius: 25px;
+          padding: 20px; }
+        body .section .section_card_wrap .section_card:nth-child(2) .section_card_right_container {
+          position: absolute;
+          top: 66px;
+          left: 526px;
+          width: 479px;
+          text-align: center; }
+          body .section .section_card_wrap .section_card:nth-child(2) .section_card_right_container .section_card_heading {
+            text-align: center;
+            padding-bottom: 34px;
+            font-size: 150%;
+            font-weight: 700;
+            letter-spacing: -0.4px; }
+          body .section .section_card_wrap .section_card:nth-child(2) .section_card_right_container .section_card_text {
+            line-height: 1.5;
+            font-family: "Hind", sans-serif;
+            text-align: justify;
+            margin-bottom: 18px;
+            opacity: 70%;
+            word-spacing: 0.7px; }
+      body .section .section_card_wrap .section_card:nth-child(3) {
+        background-color: #1b1e2a;
+        position: relative;
+        margin-bottom: 25px;
+        border-radius: 7px;
+        height: 344px; }
+        body .section .section_card_wrap .section_card:nth-child(3) .section_card_img {
+          width: 458px;
+          height: 304px;
+          border-radius: 25px;
+          padding: 20px; }
+        body .section .section_card_wrap .section_card:nth-child(3) .section_card_right_container {
+          position: absolute;
+          top: 79px;
+          left: 563px;
+          width: 447px;
+          text-align: center; }
+          body .section .section_card_wrap .section_card:nth-child(3) .section_card_right_container .section_card_heading {
+            text-align: center;
+            padding-bottom: 62px;
+            font-size: 150%;
+            font-weight: 700;
+            letter-spacing: -0.4px; }
+          body .section .section_card_wrap .section_card:nth-child(3) .section_card_right_container .section_card_text {
+            line-height: 1.5;
+            font-family: "Hind", sans-serif;
+            text-align: justify;
+            margin-bottom: 30px;
+            opacity: 70%;
+            word-spacing: 0.7px; }
+    body .section .section_banner {
+      position: relative; }
+      body .section .section_banner .section_banner_text_wrap {
+        position: relative;
+        width: 1198px;
+        margin: 0 auto;
+        border-radius: 7px;
+        margin-top: 140px;
+        margin-bottom: -74px;
+        height: 144px;
+        left: -42px;
+        border-radius: 7px;
+        background-image: linear-gradient(to right, #669702, #295bd7); }
+        body .section .section_banner .section_banner_text_wrap .section_banner_heading {
+          position: absolute;
+          left: 162px;
+          top: 24px;
+          font-family: "Source Sans Pro", sans-serif;
+          font-size: 189%;
+          font-weight: 900;
+          opacity: 0.7;
+          z-index: 1;
+          color: #1b1e2a;
+          opacity: 0.7; }
+        body .section .section_banner .section_banner_text_wrap .section_banner_heading::after {
+          display: block;
+          content: "";
+          width: 64px;
+          height: 50px;
+          position: absolute;
+          background-color: #0ca1c8;
+          top: -12px;
+          left: 120px;
+          z-index: -1; }
+        body .section .section_banner .section_banner_text_wrap .section_banner_text {
+          color: white;
+          position: absolute;
+          left: 162px;
+          top: 78px;
+          opacity: 0.6;
+          font-family: "Hind", sans-serif; }
+      body .section .section_banner .section_banner_button {
+        position: absolute;
+        color: white;
+        background-color: #699a00;
+        border: none;
+        font-weight: 700;
+        font-size: 111%;
+        padding: 13px 44px;
+        border-radius: 3px;
+        font-family: "Source Sans Pro", sans-serif;
+        top: 48px;
+        left: 852px; }
+  body .section_link, body .section_link:visited, body .section_link:link {
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    text-decoration-thickness: auto;
+    opacity: 70%; }
+  body .footer {
+    position: relative; }
+    body .footer .footer-wrap {
+      background-color: #1b1e2a;
+      position: relative;
+      height: 245px;
+      z-index: -2;
+      color: white; }
+      body .footer .footer-wrap .footer_logo {
+        position: absolute;
+        font-family: "Hind", sans-serif;
+        top: 137px;
+        left: 192px; }
+        body .footer .footer-wrap .footer_logo p {
+          position: absolute;
+          left: 59px;
+          top: -4px;
+          font-size: 150%;
+          font-weight: 600;
+          text-align: left;
+          opacity: 0.7; }
+          body .footer .footer-wrap .footer_logo p span {
+            font-family: "Source Sans Pro", sans-serif;
+            display: block;
+            position: absolute;
+            top: 33px;
+            left: 11px;
+            font-size: 41%;
+            letter-spacing: 0.1px; }
+      body .footer .footer-wrap .footer_text {
+        position: absolute;
+        width: 300px;
+        left: 772px;
+        top: 128px;
+        font-size: 88%;
+        line-height: 1.43;
+        opacity: 0.7;
+        font-family: "Hind", sans-serif; }
+      body .footer .footer-wrap .footer-cr {
+        position: absolute;
+        left: 1535px;
+        top: 147px;
+        opacity: 0.7;
+        font-family: "Source Sans Pro", sans-serif; }

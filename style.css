@@ -1,0 +1,181 @@
+
+*{
+    margin: 0;
+}
+html{
+    font-size: 2vw;
+}
+body{
+    background-color: #6d6875;
+    color:#262220;    
+    font-family: 'Cabin';
+}
+a, a:visited{
+    color:#f7f1f0;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1, h2, h3{
+    margin: 0;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    min-height: 3vw;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0;  
+    padding: 1vw 0;
+    background-color: #6d6875;
+    border-bottom: white 0.4vw solid;
+    box-shadow: 2px 2px 2px;
+}
+   
+nav ul li { 
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.0rem;
+    font-weight: 500;
+}
+nav a{
+    text-decoration: none;
+}
+
+header{
+    text-align: center;
+    line-height: 1.2;
+  }
+  
+header h1{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.5;
+ }
+.subtitle{
+    font-size: 1.0em;
+    color:#673931;
+}
+#main-area{
+    display: flex;
+    margin-top:4.8vw;
+}
+main{
+    margin-left: 10%;
+    margin-right: 0.5%;
+    padding-left: 1.0%;
+    padding-right: 2.0%;
+    width: 55%;
+    background-color: #f7f1f0;
+}
+aside{
+    width: 20%;
+    margin-right: 10%;
+    background-color: #a3c59c;
+}
+#photo{
+    display: flex;
+    justify-content: center;
+}
+#photo img{
+    margin: 1vw auto;
+    width: 90%;
+    border-radius: 50%;
+    
+}
+.blocks:before {
+	display: block;
+	content: "";
+	height: 4.8vw;
+	margin: -4.8vw 0 0;
+} 
+.blocks{
+    margin-top: 2vw;
+    margin-left: 1vw;
+    margin-bottom: 0.5vw;
+}
+.blocks h2{
+    padding-bottom: 0.5vw;
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+.blocks p {
+    font-size: 0.8rem;
+    margin-top: 0.4vw;
+    margin-bottom: 0.4vw;
+    text-align: justify;
+}
+.blocks ul{
+    font-size: 0.8rem;
+    padding-left: 1.5vw;
+}
+.blocks code{
+    margin: 0;
+    font-size: 0.7rem;
+}
+.blocks pre{
+    margin: 0;
+    font-size: 0.7rem;
+}
+#contacts ul{
+    padding-left: 0;
+}
+.contact-item{
+    padding-top: 0.3vw;
+    display:flex;
+    align-items: center;
+}
+.contact-item img{
+    height:1.9vw;
+}
+.contact-item div{
+    padding-left: 0.5vw;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color:#664229;
+}
+
+footer{
+    bottom:0;
+    width: 100%;
+    margin:0 auto;
+    margin-top: 0.5vw;
+    background-color: #6d6875;
+}
+
+#copyright{
+    padding: 1vw;
+    font-size: 90%;
+    font-weight: 600;
+    color:#673931;
+    text-align: center;
+}
+
+#course-info img{
+    display: block;
+    height: 3.5vw;
+    padding-right: 1vw;
+}
+
+#coursera-link, #codewars-link {
+    color: #6d6875;
+}
+
+#codewars-link img {
+    display: block;
+    margin: 10px auto;
+}
+
+#project-link img {
+    width: 100%;
+    vertical-align:text-top;
+    margin-bottom: 10px;
+    
+}

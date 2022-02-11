@@ -1,0 +1,123 @@
+/* START: Task 1 Styles */
+table {
+    background-color: white;
+    font-size: 120%;
+    margin: 0 auto;
+    user-select: none;
+}
+tr, td, .selectedRow, .firstCol, .cell {
+    background-color: null;
+}
+td {
+    border: 2px solid black;
+    padding: 30px;
+    width: 60px;
+    height: 60px;
+}
+
+/* END: Task 1 Styles */
+
+/* START: Task 2 Styles */
+form {
+    width: 420px;
+    margin: 0 auto;
+}
+#message {
+    background-color: rgb(241, 113, 104);
+    border: 2px solid #999;
+    margin: 10px 0;
+    font-size: 120%;
+    padding: 20px;
+    color: white;
+    visibility: hidden;
+}
+input {
+    padding: 0 10px; 
+    border: 2px solid black;
+    font-size: 80%;
+    width: 82%; 
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+}
+input:focus {
+    outline: none;
+}
+button {
+    display: block;
+    padding: 10px;
+    font-size: 110%;
+    height: 40px;
+    box-sizing: border-box;
+    float: right;
+}
+
+/* END: Task 2 Styles */
+
+/* START: Task 3 Styles */
+#court {
+    margin: 0 auto;
+    width: 600px;
+    height: 330px;
+}
+#ball {
+    width: 40px;
+    height: 40px;
+}
+#court-container {
+    position: relative;
+    width: 600px;
+    height: 330px;
+    margin: auto;
+}
+#ball-container {
+    position: absolute;
+    top: 145px;
+    left: 280px;
+    width: 40px;
+    height: 40px;
+    z-index: 1000;
+}
+#scoreZoneA {
+    position: absolute;
+    width: 15px;
+    height:15px;
+    top: 157px;
+    left:33px;
+}
+#scoreZoneB {
+    position: absolute;
+    width: 15px;
+    height:15px;
+    top: 157px;
+    right:33px;
+}
+#scoreBoard {
+    position: relative;
+    width: 590px;
+    height: 100px;
+    margin: auto;
+}
+#teamA {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    position:absolute;
+    left:0px;
+}
+#teamB {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    position:absolute;
+    right:0px;        
+}
+#alertScore {
+    position: absolute;
+    text-align: center;
+    height: 30px;
+    top: 30px;
+    width: 590px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* END: Task 3 Styles */

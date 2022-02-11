@@ -1,0 +1,174 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.calculator-wrap, .log-block {
+    width: 50%;
+}
+
+.calculator-wrap {
+    height: 100%;
+}
+
+.calculator {
+    width: 50%;
+    margin: auto;
+    padding: 40px;
+    background-color: #566885;
+    border: 3px solid #333;
+    border-radius: 8px;
+    box-shadow: 15px -15px 15px#e1e1e1;
+    font-size: 150%;
+}
+
+.screen-block {
+    padding: 6px 20px;
+    text-align: right;
+    border: 2px inset;
+    border-color: #333 #ccc #ccc #333;
+    background-color: white;
+}
+
+.C {
+    grid-area: C;
+}
+.division {
+    grid-area: division;
+}
+.nine {
+    grid-area: nine;
+}
+.eight {
+    grid-area: eight;
+}
+.seven {
+    grid-area: seven;
+}
+.mult {
+    grid-area: mult;
+}
+.six {
+    grid-area: six;
+}
+.five {
+    grid-area: five;
+}
+.four {
+    grid-area: four;
+}
+.addition {
+    grid-area: addition;
+}
+.three {
+    grid-area: three;
+}
+.two {
+    grid-area: two;
+}
+.one {
+    grid-area: one;
+}
+.subtraction {
+    grid-area: subtraction;
+}
+.zeroo {
+    grid-area: zeroo;
+}
+.equal {
+    grid-area: equal;
+}
+.empty1 {
+    grid-area: empty1;
+}
+.empty2 {
+    grid-area: empty2;
+}
+.empty3 {
+    grid-area: empty3;
+}
+.empty4 {
+    grid-area: empty4;
+}
+
+.numbers-block {
+    width: 92%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 2px;
+    padding: 2px;
+    margin-top: 10px;
+    grid-template-areas: 
+    "empty1 empty2 C division"
+    "nine eight seven mult"
+    "six five four addition"
+    "three two one subtraction"
+    "empty3 zeroo empty4 equal";
+    background-color: #D6E1EF;
+}
+
+.grid-item {
+    text-align: center;
+    background-color: #D6E1EF;
+    border: 2px solid #566885;
+    padding: 20px;
+    font-weight: 900;
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.empty-item {
+    background-color: #566885;
+}
+
+.log-block {
+    padding-right: 10%;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.log-list {
+    list-style-type: none;
+}
+
+.log-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.log-circle {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    fill: none;
+    stroke: red;
+    stroke-width: 2px;
+}
+
+.log-equation {
+    font-size: 200%;
+}
+
+.log-close {
+    font-size: 400%;
+    font-weight: 900;
+    margin-top: -15px;
+}
+
+.red_log-close {
+    color: red;
+}
+
+.red-circle {
+   fill: red; 
+}
+
+svg {
+    width: 40px;
+    height: 40px;
+}
+
+

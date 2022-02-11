@@ -1,0 +1,761 @@
+/*
+* Colors used in design.
+*   primary: #0078aa;
+*   dark: #363636;
+*   light: #fff;
+*/
+html {
+  scroll-behavior:smooth;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.header {
+  margin-left: 150px;
+}
+.logo-nav-wrap {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  background-color: #fff;
+  z-index: 10;
+}
+.logo-nav-wrap-img {
+  position: absolute;
+  height: 27px; 
+  left: 150px;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  margin: 15px 12% 0px 0px;
+}
+.nav a {
+  text-decoration: none;
+  font-size: 75%;
+  font-weight: 900;
+  padding: 0px 10px;
+  color: black;
+}
+a:hover {
+  color: #0078aa;
+}
+.header-img-wrap {
+  position: relative;
+  width: 100%;
+  margin: 60px 0 0 0;
+  overflow: hidden;
+}
+.header-img-wrap-img {
+  width: 115%;
+  margin: -0.4% 0 0 -15%;
+  height: auto;
+}
+.header-h1 {
+  position: absolute;
+  width: 40%;
+  top: 30%;
+  left: 0;
+  font-size: 210%;
+}
+.header-p {
+  position: absolute;
+  width: 35%;
+  top: 52%;
+  left: 0;
+  font-size: 86%;
+  color:  #aaa;
+  font-weight: 500;
+}
+.svg-icon {
+  width: 25px;
+  height: 25px;
+}
+.svg-icon path {
+  fill: white;
+}
+.header-icons-wrap {
+  position: absolute;
+  top: 68%;
+  left: 0;
+}
+.header-icon-elem {
+  float: left;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  background-color: #0078aa;
+  border-radius: 50%;
+  border: 2px solid #0078aa;
+}
+.header-icon-elem:hover .svg-icon path {
+  fill: #0078aa;
+}
+.header-icon-elem:hover {
+  background-color: white;
+  border: 2px solid #0078aa;
+}
+.up {
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  color: #fff;
+  font-size: 200%;
+  font-weight: 400;
+  background-color: #0078aa;
+  border-radius: 50%;
+  border: 2px solid #0078aa;
+  z-index: 10;
+}
+.up:hover {
+  color: #0078aa;
+  background-color: white;
+  border: 2px solid #0078aa;
+}
+.about {
+  margin: 50px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+.section-about-img-wrap {
+  width: 50%;
+}
+.section-about-img-wrap-img {
+  width: 100%;
+}
+.section-about-text-wrap {
+  width: 48%;
+  margin: 32px 0 0 0;
+}
+.section-about-text-wrap-h2 {
+  font-size: 190%;
+  margin-bottom: 6px;
+}
+.section-about-text-wrap-h3 {
+  font-size: 82%;
+  color: #47C9E5;
+  font-weight: 500;
+  margin: 6px 0 15px 0;
+}
+.section-arrow {
+  color: #47C9E5;
+  font-size: 90%;
+  padding-right: 5px;
+  font-weight: 600;
+}
+.section-about-text-wrap-h4 {
+  margin: 10px 0 6px 0;
+  font-size: 90%;
+}
+.section-about-p {
+  margin: 6px 0 10px 0;
+  font-size: 80%;
+  width: 60%;
+}
+.services {
+  margin: 50px 0 50px 0;
+  background-image: url(/img/services_bg.jpg);
+  width: 100%;
+  padding: 0 0 30px 0;
+}
+.section-h2 {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 180%;
+  margin-bottom: 0;
+}
+.section-h3 {
+  margin: 0 0 20px 0;
+  text-align: center;
+  font-size: 84%;
+  font-weight: 500;
+}
+.section-services-flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+.services-flex-item {
+  width: 31%;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+.flex-img-container {
+  margin: 5% 0 0 6%;
+  width: 127px;
+  height: 94px;
+} 
+.flex-item-img1 {
+  width: 85%;
+  height: auto;
+}
+.section-services-h4 {
+  margin: 0 0 -10px 6%;
+  font-size: 90%; 
+}
+.section-services-p {
+  margin-left: 6%;
+  padding-right: 20px;
+  font-size: 80%;
+}
+.pricing {
+  background-image: url(/img/pricing_bg.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 800px;
+}
+.section-pricing-h2 {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 180%;
+  margin-bottom: 0;
+}
+.section-pricing-h3 {
+  margin: 0 0 20px 0;
+  text-align: center;
+  font-size: 84%;
+  font-weight: 500;
+}
+.section-pricing-flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  margin:0 auto;
+  font-size: 14px;
+  padding-top: 3%;
+  width: 75%;
+}
+.pricing .section-pricing-side-offer {
+  width: 33%;
+  text-align: center;
+  color: #fff;
+  background-color: #47C9E5;
+}
+.offer-procedure-description {
+  line-height: 300%;
+  font-size:80%;
+  font-weight: 500;
+}
+.offer-name {
+  margin-top: 12%;
+  font-size: 130%;
+  font-weight: 800;
+}
+.offer-price{
+  font-size: 330%;
+  line-height: 160%;
+  font-weight: 800;
+}
+.offer-treatments-count{
+  font-size: 95%;
+  line-height: 200%;
+  font-style: italic;
+}
+.offer-button{
+  padding: 10px 16px;
+  border: #0078aa 2px solid;
+  border-radius: 10px;
+  margin: 5% 0 10% 0;
+  background-color: #fff;
+  color:#0078aa;
+  font-weight: 700;
+  font-size: 105%;
+  outline:none;
+}
+.offer-button:hover {
+  color: #fff;
+  background-color: #0078aa;
+}
+.pricing .section-pricing-center-offer {
+  padding: 3% 0;
+  text-align: center;
+  width:33%;
+  background-color: #fff;
+  border: 1px solid #0078aa;
+  color: #0078aa;
+  border-bottom: 2px solid #0078aa;
+  border-right: 2px solid #0078aa;
+}
+.pricing-times-sign {
+  font-size: 300%;
+  font-weight: 400;
+}
+.contact {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -4px;
+}
+.section-contact-img-wrap {
+  width: 50%;
+}
+.section-contact-img {
+  width: 100%;
+}
+.section-contact-form {
+  width: 50%;
+  margin: 60px 0 0 20px;
+}
+.section-contact-h2 {
+  font-size: 180%;
+  margin: 0;
+}
+.section-contact-h3 {
+  font-size: 80%;
+  font-weight: 500;
+  margin: 5px 0 0 0;
+}
+.contact-form {
+  margin: 20px 0 0 6px;
+}
+.form-contact-info {
+  width: 90%;
+  font-weight: 600;
+  font-size: 70%;
+  font-style: italic;
+  padding: 18px 10px 6px 10px;
+  border: none;
+  border-bottom: 1px solid #eee;
+}
+input:focus {
+  outline-color: black;
+}
+.contact-form-button {
+  color: #fff;
+  background-color: #0078aa;
+  padding: 10px 16px;
+  border: #0078aa 2px solid;
+  border-radius: 10px;
+  margin: 15px 0 0 0;
+  font-weight: 700;
+  font-size: 71%;
+  outline: none;
+}
+.contact-form-button:hover {
+  background-color: #fff;
+  color:#0078aa;
+} 
+.footer {
+  width: 100%;
+  height: 60px;
+  color: #fff;
+  font-size: 86%;
+  text-align: center;
+  background-color: #363636;
+  position: relative;
+  z-index: 5;
+}
+.copyright {
+  line-height: 60px;
+  vertical-align: bottom;
+}
+@media screen and (max-width: 1279px) and (min-width: 768px) {
+  .header {
+    margin-left: 0px;
+  }
+  .logo-nav-wrap-img {
+    left: 5px;
+  }
+  .nav {
+    margin: 15px 3% 0px 0px;
+  }
+  .nav a {
+    font-size: 90%;
+  }
+  .header-img-wrap {
+    position: relative;
+    width: 100%;
+    margin: 60px 0 0 0;
+    overflow: hidden;
+  }
+  .header-img-wrap-img {
+    width: 200%;
+    margin: -0.4% 0 0 -38%;
+  }
+  .header-h1 {
+    width: 75%;
+    font-size: 250%;
+  }
+  .header-p {
+    position: absolute;
+    width: 60%;
+    font-size: 96%;
+  }
+  .about {
+    margin: 20px 0 0 0;
+    align-items: center;
+  }
+  .section-about-p {
+    font-size: 90%;
+    width: 95%;
+  }
+  .section-about-text-wrap-h4 {
+    font-size: 100%;
+  }
+  .section-about-text-wrap-h2 {
+    font-size: 210%;
+  }
+  .section-about-text-wrap-h3 {
+    font-size: 92%;
+  }
+  .section-about-text-wrap {
+    margin: 0;
+  }
+  .section-services-flex-container {
+    justify-content: space-between;
+    align-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .services-flex-item {
+    margin-bottom: 25px;
+  }
+  .flex-img-container {
+    margin: 12% 0 0 10%;
+  } 
+  .flex-item-img1 {
+    width: 100%;
+  }
+  .section-services-h4 {
+    margin: 14px 0 -5px 10%;
+    font-size: 100%; 
+  }
+  .section-services-p {
+    margin-left: 10%;
+    padding-right: 16px;
+    font-size: 90%;
+  }
+  .services {
+    margin: 50px 0 40px 0;
+  }
+  .section-h2 {
+    padding-top: 60px;
+    font-size: 190%;
+  }
+  .section-h3 {
+    margin: 0 0 30px 0;
+    font-size: 94%;
+    font-weight: 400;
+  }
+  .pricing {
+    background-size: 153%;
+    background-position: 50% 0%;
+    margin: 0 0 0px 0;
+    height: auto;
+  }
+  .section-pricing-flex-container {
+    width: 97%;
+  }
+  .offer-procedure-description {
+    line-height: 320%;
+    font-size:96%;
+    font-weight: 400;
+  }
+  .offer-name {
+    font-size: 160%;
+  }
+  .offer-price{
+    font-size: 420%;
+    line-height: 140%;
+    padding-top: 16px;
+  }
+  .offer-treatments-count{
+    font-size: 120%;
+    line-height: 160%;
+    padding-bottom: 15px;
+  }
+  .offer-button{
+    padding: 11px 18px;
+    font-size: 120%;
+  }
+  .pricing .section-pricing-center-offer {
+    padding: 2% 0;
+    border: 2px solid #0078aa;
+  }
+  .section-pricing-h2 {
+    padding-top: 0px;
+    font-size: 200%;
+    margin-bottom: 0;
+  }
+  .section-pricing-h3 {
+    margin: 0 0 20px 0;
+    font-size: 100%;
+    font-weight: 400;
+  }
+  .contact {
+    margin-top: 20px;
+  }
+  .section-contact-img-wrap {
+    width: 50%;
+    overflow: hidden;
+  }
+  .section-contact-img {
+    width: 192%;
+    margin-left: -36px;
+  }
+  .section-contact-form {
+    width: 50%;
+    margin: 60px 0 0 20px;
+  }
+  .section-contact-h2 {
+    font-size: 200%;
+  }
+  .section-contact-h3 {
+    font-size: 95%;
+    font-weight: 400;
+    margin: 5px 0 0 0;
+  }
+  .contact-form {
+    margin: 20px 0 0 6px;
+  }
+  .form-contact-info {
+    width: 90%;
+    font-weight: 600;
+    font-size: 80%;
+    padding: 22px 10px 6px 10px;
+  }
+  .contact-form-button {
+    padding: 12px 20px;
+    font-weight: 600;
+    font-size: 84%;
+  }
+  .footer {
+    font-size: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header {
+    margin-left: 0px;
+  }
+  .logo-nav-wrap {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+  .logo-nav-wrap-img {
+    position: relative;
+    left: 0;
+  }
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px 0px 0px 0px;
+  }
+  .nav a {
+    font-size: 85%;
+    padding: 0px 10px;
+  }
+  .header-img-wrap-img {
+    width: 280%;
+    margin: -0.4% 0 0 -49%;
+  }
+  .header-h1 {
+    width: 60%;
+    top: 25%;
+    left: 20%;
+    font-size: 240%;
+    text-align: center;
+  }
+  .header-p {
+    position: absolute;
+    width: 95%;
+    top: 65%;
+    left: 0;
+    font-size: 96%;
+    text-align: center;
+    font-weight: 400;
+  }
+  .header-icons-wrap {
+    top: 87%;
+    left: 15%;
+  }
+  .header-icon-elem {
+    margin-right: 60px;
+  }
+  .about {
+    margin: 30px 0 0 0;
+    flex-direction: column;
+    text-align: center;
+  }
+  .section-about-img-wrap {
+    width: 100%;
+  }
+  .section-about-text-wrap {
+    width: 100%;
+    margin: -30px 0 0 0;
+  }
+  .section-about-text-wrap-h2 {
+    font-size: 210%;
+  }
+  .section-about-text-wrap-h3 {
+    font-size: 92%;
+    font-weight: 400;
+  }
+  .section-arrow {
+    font-size: 100%;
+  }
+  .section-about-text-wrap-h4 {
+    margin: 10px 0 6px 0;
+    font-size: 100%;
+  }
+  .section-about-p {
+    margin: 6px 0 10px 0;
+    font-size: 90%;
+    width: 100%;
+    font-weight: 500;
+  }
+  .services {
+    margin: 35px 0 50px 0;
+    background-image: url(/img/services_bg.jpg);
+    background-repeat: repeat;
+    width: 100%;
+    padding: 0 0 8px 0;
+  }
+  .section-h2 {
+    padding-top: 30px;
+    font-size: 190%;
+    margin-bottom: 5px;
+  }
+  .section-h3 {
+    margin: 0 0 20px 0;
+    font-size: 94%;
+    font-weight: 500;
+  }
+  .section-services-flex-container {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 95%;
+  }
+  .services-flex-item {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .flex-img-container {
+    margin: 6% 0 0 8%;
+  } 
+  .flex-item-img1 {
+    width: 100%;
+  }
+  .section-services-h4 {
+    margin: 10px 0 5px 8%;
+    font-size: 100%; 
+  }
+  .section-services-p {
+    margin-left: 8%;
+    padding-right: 20px;
+    font-size: 90%;
+  }
+  .pricing {
+    background-image: none;
+    width: 100%;
+    height: auto;
+  }
+  .section-pricing-h2 {
+    padding-top: 0px;
+    font-size: 200%;
+    margin-bottom: 0;
+  }
+  .section-pricing-h3 {
+    margin: 0 0 20px 0;
+    font-size: 100%;
+  }
+  .section-pricing-flex-container {
+    flex-direction: column;
+    padding-top: 1%;
+    width: 95%;
+  }
+  .pricing .section-pricing-side-offer {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .offer-procedure-description {
+    line-height: 340%;
+    font-size:90%;
+    font-weight: 400;
+  }
+  .offer-name {
+    margin-top: 10%;
+    font-size: 180%;
+  }
+  .offer-price{
+    font-size: 440%;
+    line-height: 150%;
+    font-weight: 800;
+  }
+  .offer-treatments-count{
+    font-size: 125%;
+    line-height: 190%;
+  }
+  .offer-button{
+    padding: 12px 20px;
+    margin: 3% 0 6% 0;
+    font-weight: 700;
+    font-size: 120%;
+  }
+  .pricing .section-pricing-center-offer {
+    width: 100%;
+    margin-bottom: 16px;
+    border: 1px solid #0078aa;
+  }
+  .contact {
+    flex-direction: column;
+    margin-bottom: -4px;
+  }
+  .section-contact-img-wrap {
+    width: 100%;
+    padding-top: 50px;
+  }
+  .section-contact-form {
+    width: 90%;
+    margin: 10px 0 0 20px;
+  }
+  .section-contact-h2 {
+    font-size: 200%;
+    text-align: center;
+  }
+  .section-contact-h3 {
+    font-size: 90%;
+    font-weight: 500;
+    text-align: center;
+  }
+  .contact-form {
+    margin: 20px 0 0 6px;
+    text-align: center;
+  }
+  .form-contact-info {
+    width: 90%;
+    font-weight: 500;
+    font-size: 80%;
+    padding: 26px 10px 6px 12px;
+  }
+  .contact-form-button {
+    padding: 12px 22px;
+    margin: 20px auto;
+    font-size: 82%;
+  }
+  .footer {
+    font-size: 100%;
+  }
+}
