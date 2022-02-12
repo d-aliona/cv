@@ -164,7 +164,8 @@ footer{
     padding-right: 1vw;
 }
 
-#coursera-link, #codewars-link {
+#coursera-link, #codewars-link, #github-link
+ {
     color: #6d6875;
 }
 
